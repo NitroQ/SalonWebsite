@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
+
+
+*{
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+}
+.color-y{
+    background-color: #FDDD5C;
+  }
+  .color-b{
+    background-color: #083CA8;
+    }
+
+  .text-y{
+    color: #FDDD5C;
+  }
+  .text-b{
+    color: #0838CA;
+  }
+
+
+/* Banner Section------------------------------------ */
+#banner{
+    background-image:linear-gradient(180deg, transparent, transparent, transparent, #FFFFFF),  url("/images/main/home.jpg");
+    background-size: cover;
+    height: 95vh;
+    color: black;
+}
+
+#bannertext h1{
+    font-weight: bold;
+}
+.hide-small{
+    display: block;
+}
+@media screen and (min-width: 601px) {
+    #bannertext h1{
+        font-size: 5vw;
+    }
+    
+  }
+
+@media screen and (max-width: 576px) {
+    .hide-small{
+        display: none;
+    }
+  }
+
+  img#logo_footer{
+    height: 200px;
+    width: 200px;
+}
+        
+  @media screen and (max-width:576px){
+     img#logo_footer{
+        height: 100px;
+        width: 100px;
+      }
+  }
+
